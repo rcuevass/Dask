@@ -1,3 +1,4 @@
 # Learning-Dask
 A repository with simple scripts to test Dask
-Some artitificial data is created first 
+
+Some artificial data is created first

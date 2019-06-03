@@ -1,11 +1,10 @@
 import utilities
 
 
-def main():
+def create_and_save_artificial_data():
     df = utilities.data_frame_random_individuals()
-    return df
+    df.to_csv('../data/input/artificially_created_data.csv')
 
 
 if __name__ == '__main__':
-    df = main()
-    print(df.head(10))
+    create_and_save_artificial_data()
