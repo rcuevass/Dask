@@ -15,7 +15,13 @@ def generate_individuals(k,
     return [generate_random_person(names_list, surnames_list, salaries_list) for _ in range(k)]
 
 
-def data_frame_random_individuals(number_individuals=100):
-    df = pd.DataFrame(generate_individuals(k=number_individuals),
+def data_frame_random_individuals(number_records):
+    df = pd.DataFrame(generate_individuals(k=number_records),
                       columns=["name", "surname", "salary"])
     return df
+
+
+def create_and_save_artificial_data(path_to_csv,
+                                    number_records=2000000):
+    df = data_frame_random_individuals(number_records)
+    df.to_csv(path_to_csv)
