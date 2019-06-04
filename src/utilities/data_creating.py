@@ -15,7 +15,7 @@ def generate_individuals(k,
     return [generate_random_person(names_list, surnames_list, salaries_list) for _ in range(k)]
 
 
-def data_frame_random_individuals(number_individuals=20000):
+def data_frame_random_individuals(number_individuals=250000):
     df = pd.DataFrame(generate_individuals(k=number_individuals),
                       columns=["name", "surname", "salary"])
     return df
