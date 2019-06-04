@@ -85,3 +85,19 @@
 2019-06-03 22:30:56,808,808 INFO     [main.py:56] - Records in data frame = 1500000
 2019-06-03 22:32:53,443,443 INFO     [main.py:58] - Records in data frame after grouping by = 5
 2019-06-03 22:32:53,443,443 INFO     [main.py:60] - Total time reading and grouping by with Dask, seconds=117
+2019-06-03 22:38:49,591,591 INFO     [main.py:23] - Starting
+2019-06-03 22:38:50,077, 77 INFO     [main.py:42] - Total time creating and saving csv file, seconds=0
+2019-06-03 22:38:50,112,112 INFO     [main.py:47] - Records in data frame = 10000
+2019-06-03 22:38:50,153,153 INFO     [main.py:49] - Records in data frame after grouping by = 5
+2019-06-03 22:38:50,153,153 INFO     [main.py:51] - Total time reading and grouping by with pandas, seconds=0
+2019-06-03 22:38:50,263,263 INFO     [main.py:56] - Records in data frame = 10000
+2019-06-03 22:38:50,305,305 INFO     [main.py:58] - Records in data frame after grouping by = 5
+2019-06-03 22:38:50,305,305 INFO     [main.py:60] - Total time reading and grouping by with Dask, seconds=0
+2019-06-03 22:40:07,103,103 INFO     [main.py:23] - Starting
+2019-06-03 22:40:52,568,568 INFO     [main.py:42] - Total time creating and saving csv file, seconds=45
+2019-06-03 22:40:54,005,  5 INFO     [main.py:47] - Records in data frame = 2000000
+2019-06-03 22:44:44,374,374 INFO     [main.py:49] - Records in data frame after grouping by = 5
+2019-06-03 22:44:44,383,383 INFO     [main.py:51] - Total time reading and grouping by with pandas, seconds=231
+2019-06-03 22:44:46,834,834 INFO     [main.py:56] - Records in data frame = 2000000
+2019-06-03 22:48:33,061, 61 INFO     [main.py:58] - Records in data frame after grouping by = 5
+2019-06-03 22:48:33,117,117 INFO     [main.py:60] - Total time reading and grouping by with Dask, seconds=228

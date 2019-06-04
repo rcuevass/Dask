@@ -24,7 +24,7 @@ log.info('Starting')
 
 
 def create_and_save_artificial_data(path_to_csv,
-                                    number_records=1500000):
+                                    number_records=2000000):
     df = utilities.data_frame_random_individuals(number_records)
     df.to_csv(path_to_csv)
 
