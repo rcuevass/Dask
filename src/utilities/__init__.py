@@ -1,2 +1,2 @@
-from utilities.data_creating import data_frame_random_individuals
-from utilities.data_reading import read_csv_with_pandas, read_csv_with_dask
+from utilities.data_creating import data_frame_random_individuals, create_and_save_artificial_data
+from utilities.data_processing import read_csv_with_pandas_and_create_month, read_csv_with_dask_and_create_month
