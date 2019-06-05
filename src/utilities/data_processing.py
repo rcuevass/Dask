@@ -2,10 +2,6 @@ import pandas as pd
 from timeit import default_timer as timer
 
 import dask.dataframe as ddf
-from dask.distributed import Client, LocalCluster
-
-cluster = LocalCluster(processes=False) # to use threads instead
-client = Client(cluster)
 
 
 def read_reduced_csv_with_pandas_and_create_month(path_to_csv, log):

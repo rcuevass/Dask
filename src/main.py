@@ -4,6 +4,9 @@ import logging
 from logging.handlers import TimedRotatingFileHandler
 from timeit import default_timer as timer
 
+from dask.distributed import Client, LocalCluster
+
+
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s,%(msecs)3d %(levelname)-8s [%(filename)s:%(lineno)d] - %(message)s')
@@ -20,11 +23,19 @@ fh.setFormatter(formatter)
 log.addHandler(fh)
 log.addHandler(ch)
 
+#cluster = LocalCluster(processes=False) # to use threads instead
+#client = Client(cluster)
+
+
 log.info('Executing code ...')
 
 
 if __name__ == '__main__':
     #
+
+    c = LocalCluster()  # doctest: +SKIP
+    w = c.start_worker(ncores=2)  # doctest: +SKIP
+
     # set path to reduced csv, only for 2005
     path_to_reduced_csv = '../data/input/Checkouts_By_Title_Data_Lens_2005.csv'
     #
@@ -55,6 +66,8 @@ if __name__ == '__main__':
     df_dask = utilities.read_csv_with_dask_and_count_checkouts(path_to_whole_csv, log)
     t4 = timer()
     log.info('Total time processing with Dask, seconds=%d', t4 - t3)
+
+    c.stop_worker(w)
 
 
 
