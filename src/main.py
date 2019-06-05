@@ -32,9 +32,12 @@ log.info('Executing code ...')
 
 if __name__ == '__main__':
     #
-
-    c = LocalCluster()  # doctest: +SKIP
-    w = c.start_worker(ncores=2)  # doctest: +SKIP
+    # Per Dask documentation
+    # To set up a local cluster on your machine by instantiating a Dask Client with no arguments
+    # This sets up a scheduler in your local process and several processes running single-threaded Workers
+    # One can navigate to http://localhost:8787/status to see the diagnostic dashboard if you have Bokeh installed.
+    client = Client()
+    log.info('Dask client is working now, visit=%s', 'http://localhost:8787/status')
 
     # set path to reduced csv, only for 2005
     path_to_reduced_csv = '../data/input/Checkouts_By_Title_Data_Lens_2005.csv'
@@ -66,8 +69,6 @@ if __name__ == '__main__':
     df_dask = utilities.read_csv_with_dask_and_count_checkouts(path_to_whole_csv, log)
     t4 = timer()
     log.info('Total time processing with Dask, seconds=%d', t4 - t3)
-
-    c.stop_worker(w)
 
 
 

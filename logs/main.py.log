@@ -1,2 +1,72 @@
-2019-06-05 00:00:41,869,869 INFO     [data_processing.py:120] - Number of records after processing=8
-2019-06-05 00:00:41,921,921 INFO     [main.py:68] - Total time processing with Dask, seconds=134
+2019-06-05 13:04:28,419,419 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:04:45,266,266 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:04:45,264,264 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:04:45,268,268 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:04:45,267,267 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:04:47,159,159 INFO     [main.py:40] - Dask client is working now, visit=http://localhost:8787/status
+2019-06-05 13:05:03,875,875 INFO     [data_processing.py:18] - Number of records=3794726
+2019-06-05 13:05:03,884,884 INFO     [data_processing.py:19] - Time reading csv with pandas, seconds=16
+2019-06-05 13:05:03,885,885 INFO     [data_processing.py:20] - Number of records before processing=3794726
+2019-06-05 13:05:06,643,643 INFO     [data_processing.py:23] - Time creating month column with pandas, seconds=2
+2019-06-05 13:05:11,332,332 INFO     [data_processing.py:26] - Time grouping by and summing with pandas, seconds=4
+2019-06-05 13:05:11,373,373 INFO     [data_processing.py:27] - Number of records after processing=9
+2019-06-05 13:05:11,373,373 INFO     [main.py:51] - Total time processing with pandas, seconds=24
+2019-06-05 13:05:11,505,505 INFO     [data_processing.py:41] - Time reading csv with Dask, seconds=0
+2019-06-05 13:05:21,185,185 INFO     [data_processing.py:42] - Number of records before processing=3794726
+2019-06-05 13:05:21,254,254 INFO     [data_processing.py:45] - Time creating month column with Dask, seconds=9
+2019-06-05 13:05:21,343,343 INFO     [data_processing.py:48] - Time grouping by and summing with Dask, seconds=0
+2019-06-05 13:05:33,785,785 INFO     [data_processing.py:49] - Number of records after processing=9
+2019-06-05 13:05:33,796,796 INFO     [main.py:57] - Total time processing with Dask, seconds=22
+2019-06-05 13:05:46,253,253 INFO     [data_processing.py:69] - Time reading csv with pandas, seconds=12
+2019-06-05 13:05:46,253,253 INFO     [data_processing.py:70] - Number of records before processing=2589765
+2019-06-05 13:05:46,509,509 INFO     [data_processing.py:71] - Unique checkout years in dataset=['2016' '2017' nan]
+2019-06-05 13:07:30,899,899 INFO     [data_processing.py:82] - Time creating class_title_year with pandas, seconds=104
+2019-06-05 13:07:32,331,331 INFO     [data_processing.py:85] - Time grouping by and summing with pandas, seconds=1
+2019-06-05 13:07:32,332,332 INFO     [data_processing.py:86] - Number of records after processing=8
+2019-06-05 13:07:32,332,332 INFO     [main.py:67] - Total time processing with pandas, seconds=118
+2019-06-05 13:07:32,363,363 INFO     [data_processing.py:106] - Time reading csv with Dask, seconds=0
+2019-06-05 13:07:40,032, 32 INFO     [data_processing.py:107] - Number of records before processing=2589765
+2019-06-05 13:07:40,042, 42 INFO     [data_processing.py:108] - Unique checkout years in dataset=Dask Series Structure:
+npartitions=1
+    object
+       ...
+Name: CheckoutYear, dtype: object
+Dask Name: unique-agg, 53 tasks
+2019-06-05 13:07:40,065, 65 INFO     [data_processing.py:118] - Time creating month column with Dask, seconds=7
+2019-06-05 13:07:40,067, 67 INFO     [data_processing.py:121] - Time grouping by and summing with Dask, seconds=0
+2019-06-05 13:09:36,499,499 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:09:45,997,997 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:09:45,998,998 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:09:46,002,  2 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:09:46,007,  7 INFO     [main.py:30] - Executing code ...
+2019-06-05 13:09:47,230,230 INFO     [main.py:40] - Dask client is working now, visit=http://localhost:8787/status
+2019-06-05 13:10:01,848,848 INFO     [data_processing.py:18] - Number of records=3794726
+2019-06-05 13:10:01,850,850 INFO     [data_processing.py:19] - Time reading csv with pandas, seconds=14
+2019-06-05 13:10:01,850,850 INFO     [data_processing.py:20] - Number of records before processing=3794726
+2019-06-05 13:10:05,025, 25 INFO     [data_processing.py:23] - Time creating month column with pandas, seconds=3
+2019-06-05 13:10:10,398,398 INFO     [data_processing.py:26] - Time grouping by and summing with pandas, seconds=5
+2019-06-05 13:10:10,401,401 INFO     [data_processing.py:27] - Number of records after processing=9
+2019-06-05 13:10:10,401,401 INFO     [main.py:51] - Total time processing with pandas, seconds=23
+2019-06-05 13:10:10,486,486 INFO     [data_processing.py:41] - Time reading csv with Dask, seconds=0
+2019-06-05 13:10:20,676,676 INFO     [data_processing.py:42] - Number of records before processing=3794726
+2019-06-05 13:10:20,706,706 INFO     [data_processing.py:45] - Time creating month column with Dask, seconds=10
+2019-06-05 13:10:20,709,709 INFO     [data_processing.py:48] - Time grouping by and summing with Dask, seconds=0
+2019-06-05 13:10:35,152,152 INFO     [data_processing.py:49] - Number of records after processing=9
+2019-06-05 13:10:35,165,165 INFO     [main.py:57] - Total time processing with Dask, seconds=24
+2019-06-05 13:10:48,569,569 INFO     [data_processing.py:69] - Time reading csv with pandas, seconds=13
+2019-06-05 13:10:48,592,592 INFO     [data_processing.py:70] - Number of records before processing=2589765
+2019-06-05 13:10:48,847,847 INFO     [data_processing.py:71] - Unique checkout years in dataset=['2016' '2017' nan]
+2019-06-05 13:12:47,010, 10 INFO     [data_processing.py:82] - Time creating class_title_year with pandas, seconds=118
+2019-06-05 13:12:48,503,503 INFO     [data_processing.py:85] - Time grouping by and summing with pandas, seconds=1
+2019-06-05 13:12:48,503,503 INFO     [data_processing.py:86] - Number of records after processing=8
+2019-06-05 13:12:48,503,503 INFO     [main.py:67] - Total time processing with pandas, seconds=133
+2019-06-05 13:12:48,527,527 INFO     [data_processing.py:106] - Time reading csv with Dask, seconds=0
+2019-06-05 13:12:57,044, 44 INFO     [data_processing.py:107] - Number of records before processing=2589765
+2019-06-05 13:13:05,827,827 INFO     [data_processing.py:108] - Unique checkout years in dataset=0    2016
+1    2017
+2     NaN
+Name: CheckoutYear, dtype: object
+2019-06-05 13:13:05,929,929 INFO     [data_processing.py:118] - Time creating month column with Dask, seconds=17
+2019-06-05 13:13:05,932,932 INFO     [data_processing.py:121] - Time grouping by and summing with Dask, seconds=0
+2019-06-05 13:14:27,133,133 INFO     [data_processing.py:122] - Number of records after processing=8
+2019-06-05 13:14:27,146,146 INFO     [main.py:73] - Total time processing with Dask, seconds=98
