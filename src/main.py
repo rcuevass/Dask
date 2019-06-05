@@ -25,19 +25,38 @@ log.info('Executing code ...')
 
 if __name__ == '__main__':
     #
-    # set path to csv
-    path_to_csv = '../data/input/Checkouts_By_Title_Data_Lens_2005.csv'
+    # set path to reduced csv, only for 2005
+    path_to_reduced_csv = '../data/input/Checkouts_By_Title_Data_Lens_2005.csv'
     #
     # timing data read with pandas
     t1 = timer()
-    df_pandas = utilities.read_csv_with_pandas_and_create_month(path_to_csv, log)
+    df_pandas = utilities.read_reduced_csv_with_pandas_and_create_month(path_to_reduced_csv, log)
     t2 = timer()
     log.info('Total time processing with pandas, seconds=%d', t2 - t1)
 
     # timing data read with dask
     t3 = timer()
-    df_dask = utilities.read_csv_with_dask_and_create_month(path_to_csv, log)
+    df_dask = utilities.read_reduced_csv_with_dask_and_create_month(path_to_reduced_csv, log)
     t4 = timer()
     log.info('Total time processing with Dask, seconds=%d', t4 - t3)
+
+    #
+    # set path to whole csv
+    path_to_whole_csv = '../data/input/Checkouts_By_Title.csv'
+    #
+    # timing data read with pandas
+    t1 = timer()
+    df_pandas = utilities.read_csv_with_pandas_and_count_checkouts(path_to_whole_csv, log)
+    t2 = timer()
+    log.info('Total time processing with pandas, seconds=%d', t2 - t1)
+
+    # timing data read with dask
+    t3 = timer()
+    df_dask = utilities.read_csv_with_dask_and_count_checkouts(path_to_whole_csv, log)
+    t4 = timer()
+    log.info('Total time processing with Dask, seconds=%d', t4 - t3)
+
+
+
 
 

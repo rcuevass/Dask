@@ -12,3 +12,356 @@
 2019-06-04 14:05:26,965,965 INFO     [data_processing.py:47] - Time grouping by and summing with Dask, seconds=0
 2019-06-04 14:05:43,765,765 INFO     [data_processing.py:48] - Number of records after processing=9
 2019-06-04 14:05:43,804,804 INFO     [main.py:41] - Total time processing with Dask, seconds=27
+2019-06-04 20:02:05,386,386 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:02:19,077, 77 INFO     [data_processing.py:17] - Number of records=3794726
+2019-06-04 20:02:19,085, 85 INFO     [data_processing.py:18] - Time reading csv with pandas, seconds=13
+2019-06-04 20:02:19,086, 86 INFO     [data_processing.py:19] - Number of records before processing=3794726
+2019-06-04 20:02:21,757,757 INFO     [data_processing.py:22] - Time creating month column with pandas, seconds=2
+2019-06-04 20:02:26,337,337 INFO     [data_processing.py:25] - Time grouping by and summing with pandas, seconds=4
+2019-06-04 20:02:26,374,374 INFO     [data_processing.py:26] - Number of records after processing=9
+2019-06-04 20:02:26,374,374 INFO     [main.py:35] - Total time processing with pandas, seconds=20
+2019-06-04 20:02:26,452,452 INFO     [data_processing.py:40] - Time reading csv with Dask, seconds=0
+2019-06-04 20:02:37,893,893 INFO     [data_processing.py:41] - Number of records before processing=3794726
+2019-06-04 20:02:37,937,937 INFO     [data_processing.py:44] - Time creating month column with Dask, seconds=11
+2019-06-04 20:02:38,021, 21 INFO     [data_processing.py:47] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 20:02:54,673,673 INFO     [data_processing.py:48] - Number of records after processing=9
+2019-06-04 20:02:54,686,686 INFO     [main.py:41] - Total time processing with Dask, seconds=28
+2019-06-04 20:28:45,256,256 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:29:00,462,462 INFO     [data_processing.py:17] - Number of records=3794726
+2019-06-04 20:29:00,523,523 INFO     [data_processing.py:18] - Time reading csv with pandas, seconds=15
+2019-06-04 20:29:00,523,523 INFO     [data_processing.py:19] - Number of records before processing=3794726
+2019-06-04 20:29:03,429,429 INFO     [data_processing.py:22] - Time creating month column with pandas, seconds=2
+2019-06-04 20:29:08,311,311 INFO     [data_processing.py:25] - Time grouping by and summing with pandas, seconds=4
+2019-06-04 20:29:08,311,311 INFO     [data_processing.py:26] - Number of records after processing=9
+2019-06-04 20:29:08,311,311 INFO     [main.py:35] - Total time processing with pandas, seconds=23
+2019-06-04 20:29:08,435,435 INFO     [data_processing.py:40] - Time reading csv with Dask, seconds=0
+2019-06-04 20:29:20,108,108 INFO     [data_processing.py:41] - Number of records before processing=3794726
+2019-06-04 20:29:20,142,142 INFO     [data_processing.py:44] - Time creating month column with Dask, seconds=11
+2019-06-04 20:29:20,203,203 INFO     [data_processing.py:47] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 20:29:38,579,579 INFO     [data_processing.py:48] - Number of records after processing=9
+2019-06-04 20:29:38,590,590 INFO     [main.py:41] - Total time processing with Dask, seconds=30
+2019-06-04 20:35:16,050, 50 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:35:16,076, 76 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:35:16,077, 77 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:36:16,495,495 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:36:16,495,495 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:36:16,496,496 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:39:01,807,807 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:39:01,807,807 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:39:01,808,808 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:42:53,209,209 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:42:53,209,209 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:42:53,210,210 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:47:12,200,200 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:47:12,200,200 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:47:12,201,201 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:49:44,644,644 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:49:44,644,644 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:49:44,645,645 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:51:17,733,733 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:51:17,733,733 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:51:17,734,734 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:51:31,993,993 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=14
+2019-06-04 20:51:31,994,994 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 20:51:33,401,401 INFO     [data_processing.py:90] - Time creating class_title_year with pandas, seconds=1
+2019-06-04 20:51:34,809,809 INFO     [data_processing.py:94] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 20:51:34,809,809 INFO     [data_processing.py:95] - Number of records after processing=0
+2019-06-04 20:51:34,809,809 INFO     [main.py:51] - Total time processing with pandas, seconds=17
+2019-06-04 20:52:56,656,656 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:52:56,656,656 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:52:56,657,657 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:53:09,329,329 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 20:53:09,330,330 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 20:53:10,438,438 INFO     [data_processing.py:90] - Time creating class_title_year with pandas, seconds=1
+2019-06-04 20:53:11,763,763 INFO     [data_processing.py:94] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 20:53:11,763,763 INFO     [data_processing.py:95] - Number of records after processing=0
+2019-06-04 20:53:11,763,763 INFO     [main.py:51] - Total time processing with pandas, seconds=15
+2019-06-04 20:53:11,832,832 INFO     [data_processing.py:115] - Time reading csv with Dask, seconds=0
+2019-06-04 20:53:24,201,201 INFO     [data_processing.py:116] - Number of records before processing=2589765
+2019-06-04 20:54:21,468,468 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:54:21,468,468 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:54:21,468,468 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:54:34,333,333 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 20:54:34,334,334 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 20:54:35,340,340 INFO     [data_processing.py:90] - Time creating class_title_year with pandas, seconds=1
+2019-06-04 20:54:36,675,675 INFO     [data_processing.py:94] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 20:54:36,675,675 INFO     [data_processing.py:95] - Number of records after processing=0
+2019-06-04 20:54:36,675,675 INFO     [main.py:51] - Total time processing with pandas, seconds=15
+2019-06-04 20:54:36,675,675 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 20:55:47,524,524 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:55:47,524,524 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:55:47,525,525 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:56:01,443,443 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 20:56:01,444,444 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 20:56:01,854,854 INFO     [data_processing.py:81] - Rows=2589765
+2019-06-04 20:56:02,409,409 INFO     [data_processing.py:91] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 20:56:03,771,771 INFO     [data_processing.py:95] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 20:56:03,771,771 INFO     [data_processing.py:96] - Number of records after processing=0
+2019-06-04 20:56:03,771,771 INFO     [main.py:51] - Total time processing with pandas, seconds=16
+2019-06-04 20:56:03,771,771 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 20:56:51,813,813 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:56:51,813,813 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:56:51,814,814 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:57:04,377,377 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 20:57:04,377,377 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 20:57:04,723,723 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 20:57:05,289,289 INFO     [data_processing.py:90] - Rows 02 =(2589765, 5)
+2019-06-04 20:57:05,289,289 INFO     [data_processing.py:92] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 20:57:06,595,595 INFO     [data_processing.py:96] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 20:57:06,595,595 INFO     [data_processing.py:97] - Number of records after processing=0
+2019-06-04 20:57:06,595,595 INFO     [main.py:51] - Total time processing with pandas, seconds=14
+2019-06-04 20:57:06,596,596 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 20:59:23,614,614 INFO     [main.py:23] - Executing code ...
+2019-06-04 20:59:23,614,614 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 20:59:23,615,615 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 20:59:37,215,215 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 20:59:37,215,215 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 20:59:37,617,617 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 20:59:38,267,267 INFO     [data_processing.py:90] - Rows 02 =(2589765, 5)
+2019-06-04 20:59:38,267,267 INFO     [data_processing.py:92] - Time creating class_title_year with pandas, seconds=1
+2019-06-04 20:59:39,563,563 INFO     [data_processing.py:96] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 20:59:39,563,563 INFO     [data_processing.py:97] - Number of records after processing=0
+2019-06-04 20:59:39,563,563 INFO     [main.py:51] - Total time processing with pandas, seconds=15
+2019-06-04 20:59:39,563,563 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:00:32,536,536 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:00:32,536,536 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:00:32,537,537 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:00:45,310,310 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 21:00:45,370,370 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:00:45,729,729 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:00:46,254,254 INFO     [data_processing.py:90] - Rows 02 =(2589765, 5)
+2019-06-04 21:00:46,254,254 INFO     [data_processing.py:92] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:00:47,714,714 INFO     [data_processing.py:97] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 21:00:47,715,715 INFO     [data_processing.py:98] - Number of records after processing=0
+2019-06-04 21:00:47,715,715 INFO     [main.py:51] - Total time processing with pandas, seconds=15
+2019-06-04 21:00:47,715,715 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:01:59,070, 70 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:01:59,071, 71 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:01:59,071, 71 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:02:12,477,477 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 21:02:12,477,477 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:02:12,861,861 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:02:13,459,459 INFO     [data_processing.py:91] - Rows 02 =(2589765, 5)
+2019-06-04 21:02:13,459,459 INFO     [data_processing.py:93] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:02:14,940,940 INFO     [data_processing.py:98] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 21:02:14,940,940 INFO     [data_processing.py:99] - Number of records after processing=0
+2019-06-04 21:02:14,941,941 INFO     [main.py:51] - Total time processing with pandas, seconds=15
+2019-06-04 21:02:14,941,941 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:03:18,693,693 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:03:18,693,693 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:03:18,694,694 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:03:31,320,320 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 21:03:31,322,322 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:03:31,725,725 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:06:19,694,694 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:06:19,709,709 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:06:19,710,710 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:06:34,155,155 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=14
+2019-06-04 21:06:34,156,156 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:06:34,527,527 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:06:34,573,573 INFO     [data_processing.py:93] - Rows 02 =(20, 5)
+2019-06-04 21:06:34,574,574 INFO     [data_processing.py:95] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:06:34,696,696 INFO     [data_processing.py:100] - Time grouping by and summing with pandas, seconds=0
+2019-06-04 21:06:34,696,696 INFO     [data_processing.py:101] - Number of records after processing=20
+2019-06-04 21:06:34,696,696 INFO     [main.py:51] - Total time processing with pandas, seconds=14
+2019-06-04 21:06:34,696,696 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:10:02,940,940 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:10:02,940,940 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:10:02,940,940 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:10:16,514,514 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 21:10:16,526,526 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:10:16,913,913 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:13:41,030, 30 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:13:41,030, 30 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:13:41,030, 30 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:13:53,603,603 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 21:13:53,643,643 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:13:54,038, 38 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:20:06,321,321 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:20:06,322,322 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:20:06,323,323 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:20:20,307,307 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 21:20:20,308,308 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:20:20,689,689 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:20:20,741,741 INFO     [data_processing.py:93] - Rows 02 =(4, 5)
+2019-06-04 21:20:20,741,741 INFO     [data_processing.py:95] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:20:20,857,857 INFO     [data_processing.py:100] - Time grouping by and summing with pandas, seconds=0
+2019-06-04 21:20:20,858,858 INFO     [data_processing.py:101] - Number of records after processing=4
+2019-06-04 21:20:20,858,858 INFO     [main.py:51] - Total time processing with pandas, seconds=14
+2019-06-04 21:20:20,858,858 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:21:08,788,788 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:21:08,788,788 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:21:08,788,788 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:21:21,140,140 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 21:21:21,140,140 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:21:21,503,503 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:21:21,556,556 INFO     [data_processing.py:93] - Rows 02 =(4, 5)
+2019-06-04 21:21:21,557,557 INFO     [data_processing.py:96] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:21:21,687,687 INFO     [data_processing.py:101] - Time grouping by and summing with pandas, seconds=0
+2019-06-04 21:21:21,687,687 INFO     [data_processing.py:102] - Number of records after processing=4
+2019-06-04 21:21:21,687,687 INFO     [main.py:51] - Total time processing with pandas, seconds=12
+2019-06-04 21:21:21,688,688 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:44:59,470,470 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:44:59,489,489 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:44:59,490,490 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:45:18,607,607 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=19
+2019-06-04 21:45:18,607,607 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:45:18,988,988 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:45:19,101,101 INFO     [data_processing.py:93] - Rows 02 =(4, 5)
+2019-06-04 21:45:19,102,102 INFO     [data_processing.py:96] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:45:19,213,213 INFO     [data_processing.py:101] - Time grouping by and summing with pandas, seconds=0
+2019-06-04 21:45:19,213,213 INFO     [data_processing.py:102] - Number of records after processing=2
+2019-06-04 21:45:19,213,213 INFO     [main.py:51] - Total time processing with pandas, seconds=19
+2019-06-04 21:45:19,213,213 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:46:35,991,991 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:46:35,991,991 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:46:35,992,992 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:46:48,267,267 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=12
+2019-06-04 21:46:48,272,272 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:46:48,624,624 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 21:46:48,686,686 INFO     [data_processing.py:93] - Rows 02 =(98, 5)
+2019-06-04 21:46:48,690,690 INFO     [data_processing.py:96] - Time creating class_title_year with pandas, seconds=0
+2019-06-04 21:46:48,814,814 INFO     [data_processing.py:102] - Time grouping by and summing with pandas, seconds=0
+2019-06-04 21:46:48,815,815 INFO     [data_processing.py:103] - Number of records after processing=2
+2019-06-04 21:46:48,815,815 INFO     [main.py:51] - Total time processing with pandas, seconds=12
+2019-06-04 21:46:48,815,815 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 21:54:26,016, 16 INFO     [main.py:23] - Executing code ...
+2019-06-04 21:54:26,016, 16 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 21:54:26,017, 17 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 21:54:39,438,438 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 21:54:39,439,439 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 21:54:39,822,822 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 22:01:24,471,471 INFO     [main.py:23] - Executing code ...
+2019-06-04 22:01:24,471,471 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 22:01:24,472,472 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 22:01:37,712,712 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 22:01:37,713,713 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 22:01:38,107,107 INFO     [data_processing.py:81] - Rows 01 =2589765
+2019-06-04 22:03:23,624,624 INFO     [data_processing.py:93] - Rows 02 =(2589765, 5)
+2019-06-04 22:03:23,627,627 INFO     [data_processing.py:96] - Time creating class_title_year with pandas, seconds=105
+2019-06-04 22:03:25,141,141 INFO     [data_processing.py:102] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 22:03:25,141,141 INFO     [data_processing.py:103] - Number of records after processing=8
+2019-06-04 22:03:25,142,142 INFO     [main.py:51] - Total time processing with pandas, seconds=120
+2019-06-04 22:03:25,142,142 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 22:57:57,155,155 INFO     [main.py:23] - Executing code ...
+2019-06-04 22:57:57,203,203 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 22:57:57,204,204 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 22:58:12,333,333 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=15
+2019-06-04 22:58:12,334,334 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 22:59:57,236,236 INFO     [data_processing.py:80] - Time creating class_title_year with pandas, seconds=104
+2019-06-04 22:59:58,658,658 INFO     [data_processing.py:83] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 22:59:58,658,658 INFO     [data_processing.py:84] - Number of records after processing=8
+2019-06-04 22:59:58,658,658 INFO     [main.py:51] - Total time processing with pandas, seconds=121
+2019-06-04 22:59:58,659,659 INFO     [main.py:57] - Total time processing with Dask, seconds=0
+2019-06-04 23:03:18,968,968 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:03:18,968,968 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 23:03:18,969,969 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 23:03:18,969,969 INFO     [main.py:51] - Total time processing with pandas, seconds=0
+2019-06-04 23:03:19,014, 14 INFO     [data_processing.py:104] - Time reading csv with Dask, seconds=0
+2019-06-04 23:03:31,216,216 INFO     [data_processing.py:105] - Number of records before processing=2589765
+2019-06-04 23:04:18,434,434 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:04:18,435,435 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 23:04:18,435,435 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 23:04:18,435,435 INFO     [main.py:51] - Total time processing with pandas, seconds=0
+2019-06-04 23:04:18,472,472 INFO     [data_processing.py:104] - Time reading csv with Dask, seconds=0
+2019-06-04 23:04:30,595,595 INFO     [data_processing.py:105] - Number of records before processing=2589765
+2019-06-04 23:04:30,672,672 INFO     [data_processing.py:115] - Time creating month column with Dask, seconds=12
+2019-06-04 23:07:06,367,367 INFO     [data_processing.py:119] - Time grouping by and summing with Dask, seconds=155
+2019-06-04 23:09:34,149,149 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:09:34,149,149 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 23:09:34,150,150 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 23:09:34,150,150 INFO     [main.py:51] - Total time processing with pandas, seconds=0
+2019-06-04 23:10:49,490,490 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:10:49,490,490 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 23:10:49,491,491 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 23:10:49,491,491 INFO     [main.py:51] - Total time processing with pandas, seconds=0
+2019-06-04 23:10:49,571,571 INFO     [data_processing.py:105] - Time reading csv with Dask, seconds=0
+2019-06-04 23:11:02,471,471 INFO     [data_processing.py:106] - Number of records before processing=20000
+2019-06-04 23:11:04,126,126 INFO     [data_processing.py:117] - Time creating month column with Dask, seconds=14
+2019-06-04 23:11:18,055, 55 INFO     [data_processing.py:121] - Time grouping by and summing with Dask, seconds=13
+2019-06-04 23:11:31,171,171 INFO     [data_processing.py:122] - Number of records after processing=4
+2019-06-04 23:11:31,172,172 INFO     [main.py:57] - Total time processing with Dask, seconds=41
+2019-06-04 23:12:15,182,182 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:12:15,183,183 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 23:12:15,183,183 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 23:12:15,183,183 INFO     [main.py:51] - Total time processing with pandas, seconds=0
+2019-06-04 23:12:15,238,238 INFO     [data_processing.py:105] - Time reading csv with Dask, seconds=0
+2019-06-04 23:12:27,541,541 INFO     [data_processing.py:106] - Number of records before processing=20000
+2019-06-04 23:12:29,440,440 INFO     [data_processing.py:117] - Time creating month column with Dask, seconds=14
+2019-06-04 23:12:42,533,533 INFO     [data_processing.py:121] - Time grouping by and summing with Dask, seconds=13
+2019-06-04 23:12:56,249,249 INFO     [data_processing.py:122] - Number of records after processing=4
+2019-06-04 23:12:56,249,249 INFO     [main.py:57] - Total time processing with Dask, seconds=41
+2019-06-04 23:14:12,783,783 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:14:12,783,783 INFO     [main.py:35] - Total time processing with pandas, seconds=0
+2019-06-04 23:14:12,784,784 INFO     [main.py:41] - Total time processing with Dask, seconds=0
+2019-06-04 23:14:26,298,298 INFO     [data_processing.py:68] - Time reading csv with pandas, seconds=13
+2019-06-04 23:14:26,309,309 INFO     [data_processing.py:69] - Number of records before processing=2589765
+2019-06-04 23:16:13,801,801 INFO     [data_processing.py:80] - Time creating class_title_year with pandas, seconds=107
+2019-06-04 23:16:15,269,269 INFO     [data_processing.py:83] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 23:16:15,270,270 INFO     [data_processing.py:84] - Number of records after processing=8
+2019-06-04 23:16:15,270,270 INFO     [main.py:51] - Total time processing with pandas, seconds=122
+2019-06-04 23:16:15,298,298 INFO     [data_processing.py:104] - Time reading csv with Dask, seconds=0
+2019-06-04 23:16:27,656,656 INFO     [data_processing.py:105] - Number of records before processing=2589765
+2019-06-04 23:16:27,781,781 INFO     [data_processing.py:115] - Time creating month column with Dask, seconds=12
+2019-06-04 23:16:27,782,782 INFO     [data_processing.py:118] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 23:18:24,002,  2 INFO     [data_processing.py:119] - Number of records after processing=8
+2019-06-04 23:18:24,021, 21 INFO     [main.py:57] - Total time processing with Dask, seconds=128
+2019-06-04 23:25:12,495,495 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:25:25,333,333 INFO     [data_processing.py:22] - Number of records=3794726
+2019-06-04 23:25:25,333,333 INFO     [data_processing.py:23] - Time reading csv with pandas, seconds=12
+2019-06-04 23:25:25,334,334 INFO     [data_processing.py:24] - Number of records before processing=3794726
+2019-06-04 23:25:27,971,971 INFO     [data_processing.py:27] - Time creating month column with pandas, seconds=2
+2019-06-04 23:25:32,253,253 INFO     [data_processing.py:30] - Time grouping by and summing with pandas, seconds=4
+2019-06-04 23:25:32,253,253 INFO     [data_processing.py:31] - Number of records after processing=9
+2019-06-04 23:25:32,253,253 INFO     [main.py:35] - Total time processing with pandas, seconds=19
+2019-06-04 23:25:32,294,294 INFO     [data_processing.py:45] - Time reading csv with Dask, seconds=0
+2019-06-04 23:25:44,164,164 INFO     [data_processing.py:46] - Number of records before processing=3794726
+2019-06-04 23:25:44,169,169 INFO     [data_processing.py:49] - Time creating month column with Dask, seconds=11
+2019-06-04 23:25:44,172,172 INFO     [data_processing.py:52] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 23:26:01,258,258 INFO     [data_processing.py:53] - Number of records after processing=9
+2019-06-04 23:26:01,259,259 INFO     [main.py:41] - Total time processing with Dask, seconds=29
+2019-06-04 23:26:19,564,564 INFO     [data_processing.py:73] - Time reading csv with pandas, seconds=18
+2019-06-04 23:26:19,564,564 INFO     [data_processing.py:74] - Number of records before processing=2589765
+2019-06-04 23:28:15,196,196 INFO     [data_processing.py:85] - Time creating class_title_year with pandas, seconds=115
+2019-06-04 23:28:16,685,685 INFO     [data_processing.py:88] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 23:28:16,685,685 INFO     [data_processing.py:89] - Number of records after processing=8
+2019-06-04 23:28:16,685,685 INFO     [main.py:51] - Total time processing with pandas, seconds=135
+2019-06-04 23:28:16,976,976 INFO     [data_processing.py:109] - Time reading csv with Dask, seconds=0
+2019-06-04 23:30:50,775,775 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:31:02,924,924 INFO     [data_processing.py:23] - Number of records=3794726
+2019-06-04 23:31:02,925,925 INFO     [data_processing.py:24] - Time reading csv with pandas, seconds=12
+2019-06-04 23:31:02,926,926 INFO     [data_processing.py:25] - Number of records before processing=3794726
+2019-06-04 23:31:05,511,511 INFO     [data_processing.py:28] - Time creating month column with pandas, seconds=2
+2019-06-04 23:31:09,699,699 INFO     [data_processing.py:31] - Time grouping by and summing with pandas, seconds=4
+2019-06-04 23:31:09,701,701 INFO     [data_processing.py:32] - Number of records after processing=9
+2019-06-04 23:31:09,702,702 INFO     [main.py:35] - Total time processing with pandas, seconds=18
+2019-06-04 23:31:09,757,757 INFO     [data_processing.py:46] - Time reading csv with Dask, seconds=0
+2019-06-04 23:31:22,040, 40 INFO     [data_processing.py:47] - Number of records before processing=3794726
+2019-06-04 23:31:22,165,165 INFO     [data_processing.py:50] - Time creating month column with Dask, seconds=12
+2019-06-04 23:31:22,167,167 INFO     [data_processing.py:53] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 23:31:55,623,623 INFO     [main.py:23] - Executing code ...
+2019-06-04 23:32:06,541,541 INFO     [data_processing.py:22] - Number of records=3794726
+2019-06-04 23:32:06,542,542 INFO     [data_processing.py:23] - Time reading csv with pandas, seconds=10
+2019-06-04 23:32:06,544,544 INFO     [data_processing.py:24] - Number of records before processing=3794726
+2019-06-04 23:32:09,139,139 INFO     [data_processing.py:27] - Time creating month column with pandas, seconds=2
+2019-06-04 23:32:13,263,263 INFO     [data_processing.py:30] - Time grouping by and summing with pandas, seconds=4
+2019-06-04 23:32:13,264,264 INFO     [data_processing.py:31] - Number of records after processing=9
+2019-06-04 23:32:13,265,265 INFO     [main.py:35] - Total time processing with pandas, seconds=17
+2019-06-04 23:32:13,290,290 INFO     [data_processing.py:45] - Time reading csv with Dask, seconds=0
+2019-06-04 23:32:23,992,992 INFO     [data_processing.py:46] - Number of records before processing=3794726
+2019-06-04 23:32:23,996,996 INFO     [data_processing.py:49] - Time creating month column with Dask, seconds=10
+2019-06-04 23:32:23,997,997 INFO     [data_processing.py:52] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 23:32:40,651,651 INFO     [data_processing.py:53] - Number of records after processing=9
+2019-06-04 23:32:40,662,662 INFO     [main.py:41] - Total time processing with Dask, seconds=27
+2019-06-04 23:32:57,810,810 INFO     [data_processing.py:73] - Time reading csv with pandas, seconds=17
+2019-06-04 23:32:57,873,873 INFO     [data_processing.py:74] - Number of records before processing=2589765
+2019-06-04 23:34:47,285,285 INFO     [data_processing.py:85] - Time creating class_title_year with pandas, seconds=109
+2019-06-04 23:34:48,734,734 INFO     [data_processing.py:88] - Time grouping by and summing with pandas, seconds=1
+2019-06-04 23:34:48,734,734 INFO     [data_processing.py:89] - Number of records after processing=8
+2019-06-04 23:34:48,735,735 INFO     [main.py:51] - Total time processing with pandas, seconds=128
+2019-06-04 23:34:48,790,790 INFO     [data_processing.py:109] - Time reading csv with Dask, seconds=0
+2019-06-04 23:35:00,991,991 INFO     [data_processing.py:110] - Number of records before processing=2589765
+2019-06-04 23:35:01,011, 11 INFO     [data_processing.py:120] - Time creating month column with Dask, seconds=12
+2019-06-04 23:35:01,013, 13 INFO     [data_processing.py:123] - Time grouping by and summing with Dask, seconds=0
+2019-06-04 23:37:14,265,265 INFO     [data_processing.py:124] - Number of records after processing=8
+2019-06-04 23:37:14,265,265 INFO     [main.py:57] - Total time processing with Dask, seconds=145
