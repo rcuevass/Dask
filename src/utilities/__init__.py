@@ -1,2 +1,5 @@
 from utilities.data_creating import data_frame_random_individuals, create_and_save_artificial_data
-from utilities.data_processing import read_csv_with_pandas_and_create_month, read_csv_with_dask_and_create_month
+from utilities.data_processing import read_reduced_csv_with_pandas_and_create_month,\
+    read_reduced_csv_with_dask_and_create_month,\
+    read_csv_with_pandas_and_count_checkouts,\
+    read_csv_with_dask_and_count_checkouts
