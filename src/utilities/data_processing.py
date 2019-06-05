@@ -2,10 +2,6 @@ import pandas as pd
 from timeit import default_timer as timer
 
 import dask.dataframe as ddf
-from dask.distributed import Client, LocalCluster
-
-cluster = LocalCluster(processes=False) # to use threads instead
-client = Client(cluster)
 
 
 def read_reduced_csv_with_pandas_and_create_month(path_to_csv, log):
@@ -72,6 +68,7 @@ def read_csv_with_pandas_and_count_checkouts(path_to_csv, log):
     t12 = timer()
     log.info('Time reading csv with pandas, seconds=%d', t12 - t11)
     log.info('Number of records before processing=%s', df.shape[0])
+    log.info('Unique checkout years in dataset=%s', df.CheckoutYear.unique())
     #
     # keep columns of interest only
     df = df[['UsageClass', 'Title', 'CheckoutYear', 'Checkouts']]
@@ -108,6 +105,7 @@ def read_csv_with_dask_and_count_checkouts(path_to_csv, log):
     t22 = timer()
     log.info('Time reading csv with Dask, seconds=%d', t22 - t21)
     log.info('Number of records before processing=%s', len(df))
+    log.info('Unique checkout years in dataset=%s', df.CheckoutYear.unique().compute())
     #
     # keep columns of interest only
     df = df[['UsageClass', 'Title', 'CheckoutYear', 'Checkouts']]
