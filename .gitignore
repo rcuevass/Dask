@@ -1,0 +1,11 @@
+# input data
+/data/input/Checkouts_by_Title.csv
+/data/input/Checkouts_by_Title_Data_Lens_2005.csv
+
+#
+# solution root contains IntelliJ’s project specific settings files.
+.idea
+
+#
+/src/dask-worker-space/global.lock
+/src/dask-worker-space/purge.lock
